@@ -39,11 +39,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE      &kp N1  &kp N2            &kp N3    &kp N4        &kp N5                                 &kp N6  &kp N7            &kp N8             &kp N9     &kp N0    &kp MINUS
-&kp TAB         &kp Q   &kp W             &kp E     &kp R         &kp T                                  &kp Y   &kp U             &kp I              &kp O      &kp P     &kp RET
-&kp CAPSLOCK    &kp A   &kp S             &kp D     &kp F         &kp G                                  &kp H   &kp J             &kp K              &kp L      &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X             &kp C     &kp V         &kp B   &trans       &kp C_MENU_RIGHT  &kp N   &kp M             &kp COMMA          &kp DOT    &kp FSLH  &kp RSHFT
-                        &kp LEFT_CONTROL  &kp LALT  &kp LEFT_GUI  &mo 1   &kp SPACE    &kp SPACE         &mo 2   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
+&kp ESCAPE      &kp N1  &kp N2            &kp N3    &kp N4        &kp N5                                                  &kp N6  &kp N7            &kp N8             &kp N9     &kp N0    &kp MINUS
+&kp TAB         &kp Q   &kp W             &kp E     &kp R         &kp T                                                   &kp Y   &kp U             &kp I              &kp O      &kp P     &kp RET
+&kp CAPSLOCK    &kp A   &kp S             &kp D     &kp F         &kp G                                                   &kp H   &kp J             &kp K              &kp L      &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X             &kp C     &kp V         &kp B   &trans       &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp N   &kp M             &kp COMMA          &kp DOT    &kp FSLH  &kp RSHFT
+                        &kp LEFT_CONTROL  &kp LALT  &kp LEFT_GUI  &mo 1   &kp SPACE    &kp SPACE                          &mo 2   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
             >;
 
             sensor-bindings =
@@ -63,11 +63,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp DELETE  &kp F1          &kp F2          &kp F3           &kp F4       &kp F5                               &kp F6     &kp F7    &kp F8         &kp F9            &kp F10    &kp F11
-&trans      &trans          &kp UP_ARROW    &trans           &trans       &trans                               &trans     &trans    &kp LBRC       &kp RBRC          &kp GRAVE  &kp F12
-&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &trans                               &kp CARET  &kp AMPS  &kp LBKT       &kp RBKT          &kp PLUS   &kp PIPE
-&trans      &kp K_UNDO      &kp K_CUT       &kp K_COPY       &kp K_PASTE  &trans  &trans    &trans             &kp LBKT   &kp RBKT  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp BACKSLASH
-                            &trans          &trans           &trans       &trans  &trans    &kp RIGHT_CONTROL  &trans     &trans    &trans         &kp RCMD
+&kp DELETE         &kp F1          &kp F2          &kp F3           &kp F4       &kp F5                    &kp F6     &kp F7    &kp F8         &kp F9            &kp F10    &kp F11
+&trans             &trans          &kp UP_ARROW    &trans           &trans       &trans                    &trans     &trans    &kp LBRC       &kp RBRC          &kp GRAVE  &kp F12
+&trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &trans                    &kp CARET  &kp AMPS  &kp LBKT       &kp RBKT          &kp PLUS   &kp PIPE
+&kp RIGHT_CONTROL  &kp K_UNDO      &kp K_CUT       &kp K_COPY       &kp K_PASTE  &trans  &trans    &trans  &kp LBKT   &kp RBKT  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp BACKSLASH
+                                   &trans          &trans           &trans       &trans  &trans    &trans  &trans     &trans    &trans         &trans
             >;
 
             sensor-bindings =
@@ -86,11 +86,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp HOME  &trans          &trans          &trans           &trans  &trans                    &trans     &trans  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_AC_SEARCH  &kp BACKSPACE
-&kp END   &trans          &kp UP_ARROW    &trans           &trans  &trans                    &kp PG_UP  &trans  &trans                             &trans                                  &trans           &trans
-&trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                    &kp PG_DN  &trans  &trans                             &trans                                  &trans           &trans
-&trans    &trans          &trans          &trans           &trans  &trans  &trans    &trans  &trans     &trans  &trans                             &trans                                  &trans           &trans
-                          &trans          &trans           &trans  &trans  &trans    &trans  &trans     &trans  &trans                             &trans
+&kp HOME  &trans          &trans          &trans           &trans  &trans                           &trans     &trans  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_AC_SEARCH  &kp BACKSPACE
+&kp END   &trans          &kp UP_ARROW    &trans           &trans  &trans                           &kp PG_UP  &trans  &trans                             &trans                                  &trans           &trans
+&trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                           &kp PG_DN  &trans  &trans                             &trans                                  &trans           &trans
+&trans    &trans          &trans          &trans           &trans  &trans  &trans    &trans         &trans     &trans  &trans                             &trans                                  &trans           &trans
+                          &trans          &trans           &trans  &trans  &trans    &kp RIGHT_GUI  &trans     &trans  &trans                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -106,11 +106,11 @@
 
             display-name = "layer3";
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none  &none       &none  &none              &none  &none
-&trans  &trans        &trans        &trans        &trans        &trans                          &none  &none       &none  &kp K_SCREENSAVER  &none  &none
-&none   &trans        &trans        &none         &none         &none                           &none  &none       &none  &kp K_COFFEE       &none  &none
-&none   &none         &bt BT_CLR    &none         &none         &none         &trans    &trans  &none  &kp K_MUTE  &none  &none              &none  &none
-                      &none         &none         &none         &none         &none     &none   &none  &none       &none  &none
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none      &none       &none      &none                 &none                  &none
+&trans  &kp EXCL      &kp AT        &kp POUND     &kp DOLLAR    &kp PERCENT                     &kp CARET  &kp AMPS    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none   &trans        &trans        &none         &none         &none                           &none      &none       &none      &trans                &none                  &none
+&none   &none         &bt BT_CLR    &none         &none         &none         &trans    &trans  &none      &kp K_MUTE  &none      &none                 &none                  &none
+                      &none         &none         &none         &none         &none     &none   &none      &none       &none      &none
             >;
         };
     };
