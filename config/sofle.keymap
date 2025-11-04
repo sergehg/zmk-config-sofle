@@ -86,7 +86,7 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp HOME  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans  &trans                               &trans  &trans  &trans  &trans         &trans  &trans
+&kp HOME  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans  &trans                               &trans  &trans  &trans  &trans         &trans  &kp DELETE
 &kp END   &trans                             &kp UP_ARROW     &trans                                  &trans  &trans                               &trans  &trans  &trans  &kp PAGE_UP    &trans  &trans
 &trans    &kp LEFT_ARROW                     &kp DOWN_ARROW   &kp RIGHT_ARROW                         &trans  &trans                               &trans  &trans  &trans  &kp PAGE_DOWN  &trans  &trans
 &trans    &trans                             &trans           &trans                                  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans         &trans  &kp RIGHT_SHIFT
