@@ -63,11 +63,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp HOME  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5                       &kp F6   &kp F7   &kp F8         &kp F9            &kp F10    &kp DELETE
-&kp END   &trans          &kp UP_ARROW    &trans           &trans  &kp TILDE                    &kp F11  &kp F12  &trans         &kp PAGE_UP       &trans     &trans
-&trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                       &trans   &trans   &trans         &kp PAGE_DOWN     &kp CARET  &kp GRAVE
-&trans    &trans          &trans          &trans           &trans  &trans     &trans    &trans  &trans   &trans   &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp PIPE
-                          &trans          &trans           &trans  &trans     &trans    &trans  &trans   &trans   &trans         &kp TILDE
+&kp PAGE_UP    &kp F1          &kp F2          &kp F3           &kp F4  &kp F5                       &kp F6   &kp F7   &kp F8          &kp F9            &kp F10          &kp DELETE
+&kp PAGE_DOWN  &trans          &kp UP_ARROW    &trans           &trans  &kp TILDE                    &kp F11  &kp F12  &trans          &kp UP_ARROW      &kp CARET        &trans
+&trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                       &trans   &trans   &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp GRAVE
+&trans         &trans          &trans          &trans           &trans  &trans     &trans    &trans  &trans   &trans   &kp LESS_THAN   &kp GREATER_THAN  &kp EQUAL        &kp PIPE
+                               &trans          &trans           &trans  &trans     &trans    &trans  &trans   &trans   &trans          &kp TILDE
             >;
 
             sensor-bindings =
@@ -86,11 +86,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp HOME  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans  &trans                               &trans  &trans  &trans  &trans         &trans  &kp DELETE
-&kp END   &trans                             &kp UP_ARROW     &trans                                  &trans  &trans                               &trans  &trans  &trans  &kp PAGE_UP    &trans  &trans
-&trans    &kp LEFT_ARROW                     &kp DOWN_ARROW   &kp RIGHT_ARROW                         &trans  &trans                               &trans  &trans  &trans  &kp PAGE_DOWN  &trans  &trans
-&trans    &trans                             &trans           &trans                                  &trans  &trans  &trans    &trans             &trans  &trans  &trans  &trans         &trans  &kp RIGHT_SHIFT
-                                             &trans           &trans                                  &trans  &trans  &trans    &kp RIGHT_CONTROL  &trans  &trans  &trans  &trans
+&kp HOME  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans  &trans                               &trans  &trans  &trans          &trans          &trans           &kp DELETE
+&kp END   &trans                             &kp UP_ARROW     &trans                                  &trans  &trans                               &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans
+&trans    &kp LEFT_ARROW                     &kp DOWN_ARROW   &kp RIGHT_ARROW                         &trans  &trans                               &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans    &trans                             &trans           &trans                                  &trans  &trans  &trans    &trans             &trans  &trans  &trans          &trans          &trans           &kp RIGHT_SHIFT
+                                             &trans           &trans                                  &trans  &trans  &trans    &kp RIGHT_CONTROL  &trans  &trans  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
