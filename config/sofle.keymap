@@ -86,10 +86,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp PAGE_UP    &kp PIPE  &trans  &trans  &trans  &trans                    &trans  &trans          &kp TILDE2       &kp UP_ARROW      &kp RIGHT_PARENTHESIS  &kp DEL
-&kp PAGE_DOWN  &trans    &trans  &trans  &trans  &trans                    &trans  &trans          &kp LEFT         &kp DOWN_ARROW    &kp RIGHT              &kp PLUS
-&trans         &trans    &trans  &trans  &trans  &trans                    &trans  &trans          &kp HOME         &kp END           &trans                 &trans
-&trans         &trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &kp LESS_THAN    &kp GREATER_THAN  &kp QUESTION           &kp DOUBLE_QUOTES
+&kp PAGE_UP    &kp PIPE  &trans  &trans  &trans  &trans                    &trans  &trans          &kp TILDE2       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&kp PAGE_DOWN  &trans    &trans  &trans  &trans  &trans                    &trans  &trans          &kp HOME         &kp UP_ARROW          &kp END                &kp PLUS
+&trans         &trans    &trans  &trans  &trans  &trans                    &trans  &trans          &kp LEFT         &kp DOWN              &kp RIGHT              &trans
+&trans         &trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &kp LESS_THAN    &kp GREATER_THAN      &kp QUESTION           &kp DOUBLE_QUOTES
                          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
             >;
 
